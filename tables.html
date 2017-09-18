@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиці</title>
+</head>
+<body>
+    <h1 align = "center">Таблиці</h1>
+    <h3>Перша таблиця:</h3>
+    <table border="1" cellpadding="5px">
+        <caption align="center">Видобуток дорогоцінних каменів</caption>
+        <tr>
+            <th width="130"></th>
+            <th width="70" align="center"><b>2010</b></th>
+            <th width="70" align="center"><b>2012</b></th>
+            <th width="70" align="center"><b>2014</b></th>
+            <th width="70" align="center"><b>2016</b></th>
+        </tr>
+        <tr>
+            <td>Сапфіри</td>
+            <td rowspan="2">1483</td>
+            <td>4532</td>
+            <td>6743</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>Рубіни</td>
+            <td>3835</td>
+            <td>2012</td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>Алмази</td>
+            <td>683</td>
+            <td align="center" colspan="2">238</td>
+            <td align="center">228</td>
+        </tr>
+    </table>
+    <style type="text/css">
+        .option1 {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .option2{
+            background-color: darkgreen;
+        }
+    </style>
+    <br><h3>Друга таблиця:</h3>
+    <table border="1" cellpadding="10px" class="option1">
+        <colgroup>
+            <col span="2" style="background-color:lightseagreen"/>
+            <col style="background-color:lightcyan"/>
+            <col style="background-color:lightsalmon"/>
+        </colgroup>
+        <tr>
+            <th>№ п/п</th>
+            <th>Наименование</th>
+            <th>Цена, руб.</th>
+            <th>Количество, шт.</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Карандаш цветной</td>
+            <td>20,00</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Линейка 20см</td>
+            <td>30,00</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ручка шариковая</td>
+            <td>5,00</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Тетрадь 48лист.</td>
+            <td>6,50</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Файл</td>
+            <td>0,50</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <br><h3>Третя таблиця:</h3>
+    <table border="1" cellpadding="12px" class="option1">
+        <colgroup>
+            <col style="background-color: royalblue"/>
+            <col span="3" style="background-color: lightgray"/>
+        </colgroup>
+        <tr align="center" style="background-color: orange">
+            <th width="20">№</th>
+            <th width="160">ПІБ</th>
+            <th width="120">Адреса</th>
+            <th width="90">Телефон</th>
+        </tr>
+        <tr align="center">
+            <td>1</td>
+            <td>ПІБ1</td>
+            <td>Адреса1</td>
+            <td>111111</td>
+        </tr>
+        <tr align="center">
+            <td>2</td>
+            <td>ПІБ2</td>
+            <td>Адреса2</td>
+            <td>222222</td>
+        </tr>
+        <tr align="center">
+            <td>3</td>
+            <td>ПІБ3</td>
+            <td>Адреса3</td>
+            <td>333333</td>
+        </tr>
+        <tr align="center">
+            <td>4</td>
+            <td>ПІБ4</td>
+            <td>Адреса4</td>
+            <td>444444</td>
+        </tr>
+        <tr>
+            <td  colspan="3" align="right" class="option2"><b>Загальна кількість</b></td>
+            <td  align="center" class="option2"><b>4</b></td>
+        </tr>
+    </table>
+</body>
+</html>
